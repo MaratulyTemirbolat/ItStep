@@ -1,0 +1,16 @@
+body{
+    background-image:url(листочки.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: sans-serif;
+}
+.text-block{
+    color: white;
+    font-weight: 500;
+    width: 500px;
+    background-color: rgba(0, 128, 0, 0.808);
+    padding: 30px;
+    margin: 0px auto;
+}
