@@ -1,0 +1,28 @@
+div{
+    background-color: bisque;
+    padding: 20px;
+    width: 650px;
+    margin-left: 25%;
+    text-align: center;
+}
+.title{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0;
+}
+#remained-date{
+    font-size: 18px;
+}
+input{
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+#date-button{
+    height: 46px;
+    width: 220px;
+    font-size: 18px;
+    position: relative;
+    top: 1px;
+}

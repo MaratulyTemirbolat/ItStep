@@ -1,0 +1,25 @@
+.modal-window{
+    display: none;
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    top:0;
+    height: 20%;
+    width: 75%;
+    background-color: rgba(0, 0, 0, 0.61);
+    text-align: center;
+}
+.content{
+    font-family: sans-serif;
+    background-color:lightblue;
+    position: inherit;
+    top:3%;
+    left: 20%;
+    width: 30%;
+    font-weight: bold;
+    font-size: 20px;
+    padding:0px 10px 15px 10px;
+}
+#close-modal{
+    width: 70%;
+}

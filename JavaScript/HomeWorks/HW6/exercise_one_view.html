@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Credit Page</title>
+        <link rel = "stylesheet" href = "exercise_one_style.css">
+    </head>
+    <body>
+        <div class = "main">
+            <div class = "part-header">
+                <h3>Сумма Займа</h3>
+                <div id = "purchase-block"><p>ОФОРМИТЬ СЕЙЧАС</p></div>
+            </div>
+            <div class = "part-main">
+                <input type = "range" id = "money-range" min = "10000" max = "80000" step = "1000">
+                <p id = "money-info"></p>
+            </div>
+            <div class = "part-foot">
+                <h3>Варианты срока кредита: </h3>
+                <select>
+                    <option>6</option>
+                    <option>12</option>
+                    <option>24</option>
+                </select>
+            </div>
+            <h3>Ваш ежемесячный платёж составит: <span id = "final-money">0</span> тенге</h3>
+            <h3>Процент переплаты составляет: <span id = "percent-info">0</span> %</h3>
+        </div>
+        <div id = "confirmation-window">
+            <h1>СУММА КРЕДИТА УСПЕШНО ОФОРМЛЕНА!</h1>
+            <div><img src = "dance.gif"></div>
+            <button>Закрыть окно</button>
+        </div>
+        <script src = "exercise_one_script.js"></script>
+    </body>
+</html>

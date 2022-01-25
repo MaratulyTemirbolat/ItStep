@@ -1,0 +1,21 @@
+form{
+    width: 500px;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 1s;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    border: 1px solid black;
+}
+div{
+    margin-left: 15%;
+}
+#registration{
+    background-color: unset;
+}
+#entrance{
+    background-color: unset;
+}
+input{
+    margin:5px;
+}

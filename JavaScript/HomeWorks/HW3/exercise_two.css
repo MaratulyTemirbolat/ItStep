@@ -1,0 +1,46 @@
+.surface{
+    display: flex;
+    height: 250px;
+    width: 800px;
+    background-color:rgba(255, 202, 122, 0.397);
+    align-items: center;
+    justify-content:space-around;
+}
+.body{
+    display:flex;
+    width: 500px;
+    height: 150px;
+    padding:25px 25px;
+    border: grey solid 3px;
+    border-radius: 25px;
+    margin-left: 20px;
+}
+.shape{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+.red{
+    background-color: grey;
+    margin-right: 20px;
+}
+.yellow{
+    background-color: grey;
+    margin-right: 20px;
+}
+.green{
+    background-color: grey;
+}
+#switch-colors{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 35px;
+    height: 200px;
+    width: 130px;
+    margin-right: 20px;
+    border-radius: 25px;
+    border-left: lightgray;
+    border-top: lightgray;
+    border-right: rgba(128, 128, 128, 0.733) solid;
+    border-bottom: rgba(128, 128, 128, 0.733) solid;
+}

@@ -1,0 +1,40 @@
+.part-header,.part-main,.part-foot{
+  display: flex;
+  justify-content: space-between;
+}
+.main{
+    margin-left: 35%;
+    width: 480px;
+    font-family: sans-serif;
+    background-color: rgba(255, 228, 196, 0.548);
+    padding: 10px;
+}
+#money-range{
+    width: 230px;
+}
+select{
+    width: 100px;
+    height: 30px;
+    margin-top: 4%;
+}
+#confirmation-window{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 350px;
+    z-index: 1;
+    background-color: rgba(128, 128, 128, 0.438);
+    text-align: center;
+    font-family: sans-serif;
+    padding: 13% 0px ;
+    font-size: 30px;
+    display: none;
+}
+button{
+    font-size: 25px;
+    width: 200px;
+}
+#purchase-block{
+    background-color: hotpink;
+}
