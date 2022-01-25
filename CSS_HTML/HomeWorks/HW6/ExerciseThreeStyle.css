@@ -1,0 +1,82 @@
+.ts-form,select{
+    background-color: rgba(211, 211, 211, 0);
+    border: none;
+    border-bottom: black solid 1px;
+    width: 160px;
+    height: 30px;
+    padding-left: 10px;
+    font-family: sans-serif;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+div{
+    background-color: rgba(211, 211, 211, 0.39);
+    margin-left: 20px;
+    font-family: sans-serif;
+    padding-left: 10px;
+    border:groove;
+    width: 865px;
+}
+
+form:first-child input:first-of-type,form:first-of-type input:nth-of-type(2){
+    width:356px;
+}
+span{
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-size: 100% 100%;
+    position: relative;
+    top:8px;
+}
+form:first-child span:first-of-type{
+    background-image: url(username.png);
+}
+form:first-child span:nth-of-type(2){
+    background-image: url(email.png);
+}
+form:first-child span:nth-of-type(3){
+    background-image: url(pswd.png);
+}
+select{
+    width: 173px;
+}
+form:first-child,form:nth-child(2){
+    display: inline-block;
+    width: 430px;
+    height: 200px;
+}
+form:nth-child(2) h3{
+    position:relative;
+    top: 7px;
+}
+form:nth-child(2){
+    position: relative;
+    top: -40px;
+    
+}
+form:nth-child(2) input,form:nth-child(2) select{
+    height: 40px;
+}
+form:last-child{
+    position: relative;
+    top:-20px
+}
+p{
+    display: inline;
+    font-size: 15px;
+}
+label{
+    display: block;
+}
+button{
+    color: white;
+    background-color: teal;
+    padding:5px 40px 5px 40px;
+    vertical-align:top;
+    position:relative;
+    left: 700px;
+    margin-top: 70px;
+}
+
