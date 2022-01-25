@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(69, 57, 230);
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+#parallax-container {
+    padding: 0;
+    width: 1200px;
+    height: 800px;
+    margin: 100px auto;
+    background: linear-gradient(#66fffd, #fff);
+    position: relative;
+}
+.smth {
+    height: 2000px;
+}
+
+#mountain{
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+#logo {
+    position: absolute;
+    bottom: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+    transition: transform 0.1s;
+}
