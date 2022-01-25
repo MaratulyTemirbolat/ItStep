@@ -1,0 +1,41 @@
+ul{
+    list-style-type:none;
+}
+li{
+    background-color: darkgray;
+    width: 300px;
+    height: 50px;
+    padding: 10px 10px;
+    color:white;
+    font-family: sans-serif;
+    transition: background-color 1s;
+    font-size: 25px;
+}
+li::before{
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-size: 137% 137%;
+    margin-right: 30px;
+    background-repeat: no-repeat;
+}
+li:first-child::before{
+    background-image: url(edit.png);
+}
+li:nth-child(2)::before{
+    background-image: url(favorites.png);
+}
+li:nth-child(3)::before{
+    background-image: url(history.png);
+}
+li:nth-child(4)::before{
+    background-image: url(security.png);
+}
+li:nth-child(5)::before{
+    background-image: url(settings.png);
+}
+li:hover{
+    background-color: gray;
+}
+
