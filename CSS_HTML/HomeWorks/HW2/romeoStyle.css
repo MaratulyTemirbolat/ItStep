@@ -1,0 +1,19 @@
+h1{
+    color: darkslateblue;
+    font-weight:700;
+    text-align: center;
+}
+body{
+    font-family: sans-serif;
+}
+.scence-one{
+    font-size: 12px;
+    font-style: oblique;
+}
+p{
+    line-height: 25px;
+}
+h3{
+    color:gray;
+
+}

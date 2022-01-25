@@ -1,0 +1,26 @@
+p{
+    font-size: 40px;
+}
+.black-gray{
+    /* background-color: rgb(211, 211, 211); */
+    background-color: rgba(0, 0, 0, 0.11);
+    padding: 8px;
+}
+.red-gray{
+    color:brown;
+    background-color: rgba(0, 0, 0, 0.11);
+    padding: 8px;
+}
+.small-sign{
+    font-size: 33px;
+}
+.big-sign{
+    font-size: 48px;
+}
+body{
+    margin: 5px;
+    font-family: sans-serif;
+}
+h2{
+    font-weight: normal;
+}
