@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel = "stylesheet" href = "main_menu_style.css">
+    </head>
+    <body>
+        <div id = "main-window">
+            <div class = "header">
+                <h2>Library</h2>
+            </div>
+            <div id = "navigator">
+                <div class = "nav-item">Books</div>
+                <div class = "nav-item">Visitors</div>
+                <div class = "nav-item">Cards</div>
+                <div class = "nav-item">Statistics</div>
+            </div>
+            <div style="display: none;" class = "main-info">
+                <div id = "info-header">
+                    <h3>ALL VISITORS:</h3>
+                    <button id = "btn-new-visitor" style = "font-size: 16px;">New visitor</button>
+                </div>
+                <hr>
+                <div id = "full-information-part">
+                    <div id = "search-part">
+                        <div id = "left-part">
+                            <p>Sort by: </p>
+                            <select class = "interraction">
+                                <option value = "ID">ID</option>
+                                <option value = "Name">Name</option>
+                                <option value = "Phone">Phone</option>
+                                <option value = "Visitor name">Visitor name</option>
+                                <option value = "Book name">Book name</option>
+                                <option value = "Borrow date">Borrow date</option>
+                                <option value = "Number of purchases">Number of purchases</option>
+                            </select>
+                            <button class = "interraction">Sort</button>
+                        </div>
+                        <div id = "right-part">
+                            <p>Search: </p>
+                            <input style = "height: 24px;" class = "interraction" type = "text">
+                            <button class = "interraction">Search</button>
+                        </div>
+                    </div>
+                    <div id = "table-part">
+                        <table id = "user-table">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Name</th>
+                                    <th>Phone</th>
+                                    <th>Edit</th>
+                                </tr>
+                            </thead>
+                            <!-- <tr class = "user-line">
+                                <td>1</td>
+                                <td>Colette Kelley</td>
+                                <td>012 435 45 67</td>
+                                <td><img class = "edit-user" src = "pencil_two.png" width="30"></td>
+                            </tr> -->
+                        </table>
+                        <table id = "book-table">
+                            <thead id = "book-thead">
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Book Name</th>
+                                    <th>Edit</th>
+                                    <th>Delete</th>
+                                </tr>
+                            </thead>
+                            <tbody id = "book-tbody">
+                                <!-- <tr class = "book-line">
+                                    <td>1</td>
+                                    <td>Assassin's creed</td>
+                                    <td><img class = "edit-book" src = "pencil_two.png" width="30"></td>
+                                    <td><img class = "delete-book" src = "delete_icon.png" width="30"></td>
+                                </tr> -->
+                            </tbody>
+                        </table>
+                        <table id = "card-table">
+                            <thead id = "card-thead">
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Visitor</th>
+                                    <th>Book</th>
+                                    <th>Borrow Date</th>
+                                    <th>Return Date</th>
+                                </tr>
+                            </thead>
+                            <tbody id = "card-tbody">
+                                <tr class = "card-line">
+                                    <td>1</td>
+                                    <td>Maratuly Temirbolat</td>
+                                    <td>JS Part 1</td>
+                                    <td>12.01.2019</td>
+                                    <td>12.03.2019</td>
+                                </tr>
+                                <tr class = "card-line">
+                                    <td>2</td>
+                                    <td>Assanali Moldash</td>
+                                    <td>JS Part 2</td>
+                                    <td>12.01.2019</td>
+                                    <td><img class = "return-book" src = "return_icon.png" width="30"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <table id = "best-books">
+                            <h3 id = "top-books-title">Top 5 frequently purchased Books:</h3>
+                            <thead id = "best-books-thead">
+                                <th>ID</th>
+                                <th>Book name</th>
+                                <th>Number of purchases</th>
+                            </thead>
+                            <tbody id = "best-books-tbody">
+                            </tbody>
+                        </table>
+                        <table id = "best-visitors">
+                            <h3 id = "top-visitors-title">Top 5 Visitors:</h3>
+                            <thead id = "best-visitors-thead">
+                                <th>ID</th>
+                                <th>Visitor Name</th>
+                                <th>Number of purchases</th>
+                            </thead>
+                            <tbody id = "best-visitors-tbody">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div id = "edit-user">
+            <div id = "edit-user-window">
+                <h2>Edit visitor:</h2>
+                <div>
+                   <h4>Full name:</h4>
+                   <input id = "edit-name" type = "text">
+                   <h4 style = "margin-top: 10px;">Phone number</h4>
+                   <input id = "edit-phone" type = "text"> <br> <br>
+                   <button id = "btn-edit">Save</button>
+                </div>
+            </div>
+        </div>
+        <div id = "add-user">
+            <div id = "add-user-window">
+                <h2>Add new user:</h2>
+                <div>
+                   <h4>Full name:</h4>
+                   <input id = "add-name" type = "text">
+                   <h4 style = "margin-top: 10px;">Phone number</h4>
+                   <input id = "add-phone" type = "text"> <br> <br>
+                   <button id = "btn-add">Add User</button>
+                </div>
+            </div>
+        </div>
+        <div id = "edit-book">
+            <div id = "edit-book-window">
+                <h2>Edit book:</h2>
+                <div>
+                   <h4>Book name:</h4>
+                   <input id = "edit-book-name" type = "text">
+                   <button id = "btn-edit-book">Save</button>
+                </div>
+            </div>
+        </div>
+        <div id = "add-book">
+            <div id = "add-book-window">
+                <h2>Add new book:</h2>
+                <div>
+                   <h4>Book name:</h4>
+                   <input id = "add-name-book" type = "text">
+                   
+                   <button id = "btn-add-book">Add Book</button>
+                </div>
+            </div>
+        </div>
+        <div id = "add-card">
+            <div id = "add-card-window">
+                <h2>Add new card:</h2>
+                <div>
+                   <h4>Visitor name:</h4>
+                   <input id = "add-card-visitor-name" type = "text">
+                   <h4 style = "margin-top: 10px;">Book name</h4>
+                   <input id = "add-card-book-name" type = "text"> <br> <br>
+                   <button id = "btn-add-new-card">Add User</button>
+                </div>
+            </div>
+        </div>
+        <script src = "main_menu_scrpt.js"></script>
+    </body>
+</html>
