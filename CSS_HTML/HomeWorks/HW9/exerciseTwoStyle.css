@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+body{
+    margin:0;
+    padding-top: 50px;
+    background-color: rgba(211, 211, 211, 0.719);;
+}
+.left-part{
+    width: 260px;
+    height: 1000px;
+}
+.middle-part{
+    width: 400px;
+    height: 1000px;
+}   
+.rigth-part{
+    width: 260px;
+    height: 1000px;
+}
+.woomen-part{
+    height: 110px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.woomen-part:nth-child(even){
+    height: 80px;
+}
+.name{
+    font-size: 20px;
+}
+.woomen-name{
+    height: 40px;
+    text-align: right;
+}
+.person-info{
+    margin: 0;
+}
+.middle-part div{
+    height: 80px;
+    padding: 24px 20px;
+}
+.middle-part div p{
+    margin:0;
+    vertical-align:middle;
+}
+.middle-part div:nth-child(n){
+    margin-top: 15px;
+}
+.middle-part div:nth-child(odd){
+    background-color: lightpink;
+    border-radius: 18px 18px 18px 0;
+}
+.middle-part div:nth-child(even){
+    background-color: lightskyblue;
+    border-radius: 18px 18px 0 18px;
+}
+.short-text{
+    line-height: 30px;
+}
+
+.men-part{
+    height: 110px;
+    display: flex;
+    align-items: center;
+}
+.men-part:nth-child(1){
+    height: 95px;
+}
+.men-part:nth-child(3),.men-part:nth-child(5){
+    height: 80px;
+}
+.last-seen{
+    color:rgba(0, 0, 0, 0.521);
+    font-size: 13px;
+}
