@@ -1,0 +1,47 @@
+#head,td{
+    text-align: center;
+}
+#head{
+    color: white;
+}
+body{
+    font-family: sans-serif;
+    background-color: darkgray;
+}
+table{
+    border-collapse: collapse;
+    background-color: white;
+}
+th{
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+    height: 40px;
+}
+td{
+    border: black solid 1px;
+}
+.busy-cell{
+    background-color:lightblue;
+    padding:10px;
+    vertical-align: middle;
+}
+tr td:first-child, th{
+    background-color: lightgoldenrodyellow;
+}
+div{
+    height: 41px;
+    width: 80px;
+    display: inline-block;
+    position: relative;
+    top:14px
+}
+h3{
+    display: inline-block;
+    margin-right: 300px;
+}
+.busy-time{
+    background-color: lightblue;
+}
+.free-time{
+    background-color: white;
+}
